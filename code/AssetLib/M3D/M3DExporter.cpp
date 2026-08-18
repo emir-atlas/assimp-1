@@ -437,6 +437,6 @@ void M3DExporter::NodeWalk(const M3DWrapper &m3d, const aiNode *pNode, aiMatrix4
     }
 }
 } // namespace Assimp
-#endif
+#endif // ASSIMP_BUILD_NO_M3D_IMPORTER
 #endif // ASSIMP_BUILD_NO_M3D_EXPORTER
 #endif // ASSIMP_BUILD_NO_EXPORT
